@@ -13,5 +13,5 @@ Features include:
 
 Disclaimer: In-house data was removed entirely and compound names replaced with arbitary names to ensure privacy of contents.
 
-An example of the generated can be seen below:
+An example of the generated can be seen below where the model will give a probability of each compound existing in each sample:
 ![image](https://github.com/nigelmaxwee/ChromSpec/assets/122780978/53a676de-c4eb-4aa5-81c2-b4b76a594bab)
