@@ -1,9 +1,17 @@
 # ChromSpec
 This project explores using multivariate logistic regression for multi-label classification of unknown compounds using GCMS mass spectra data and an in-house collected library which was used to train the logistic model. 
 
+Context of data collected:
+1. 3 dimensional data (x, y, z) axes
+2. Specific mass spectra (m/z) and total ion current (TIC) distribution at a specific retention time (RT) allows for identification of compound
+
+Graphical illustration of the data collection can be seen below:
+![image](https://github.com/nigelmaxwee/ChromSpec/assets/122780978/bf36fecf-ba03-4621-bbc5-8c8cfc55840e)
+
+
 Main parts of the code include:
-1. Preprocessing of data
-2. Feature engineering of data
+1. Preprocessing of data (data extraction from raw data files, normalisation within same scan number and one-hot encoding for classification of in-house library)
+2. Feature engineering of data [time-bin encoding -> (35/0.25) time bins * 300 m/z = 42000 features per row per sample]
 3. Modelling using logistic regression
 
 Features include:
