@@ -4,7 +4,7 @@ Context of data collected:
 1. 3 dimensional data (x, y, z) axes
 2. Specific mass spectra (m/z) and total ion current (TIC) distribution at a specific retention time (RT) allows for identification of compound
 
-Graphical illustration of the data collection can be seen below:
+Graphical illustration of the 3 dimensions of data collected can be seen below:
 ![image](https://github.com/nigelmaxwee/ChromSpec/assets/122780978/bf36fecf-ba03-4621-bbc5-8c8cfc55840e)
 
 
