@@ -10,7 +10,7 @@ Graphical illustration of the 3 dimensions of data collected can be seen below:
 
 Main parts of the code include:
 1. Preprocessing of data (data extraction from raw data files, normalisation within same scan number and one-hot encoding for classification of in-house library)
-2. Feature engineering of data [time-bin encoding -> (35/0.25) time bins * 300 m/z = 42000 features per row per sample]
+2. Feature engineering of data (time-bin encoding -> 35 minutes run duration / 0.25 time interval -> 140 time bins * 300 m/z -> 42000 features per row per sample)
 3. Modelling using logistic regression 
 
 Features of code include:
