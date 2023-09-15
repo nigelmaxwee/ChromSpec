@@ -13,7 +13,7 @@ Main parts of the code include:
 2. Feature engineering of data [time-bin encoding -> (35/0.25) time bins * 300 m/z = 42000 features per row per sample]
 3. Modelling using logistic regression 
 
-Features include:
+Features of code include:
 1. Creating a new model from data
 2. Using an existing trained model
 3. Adding more data to existing models 
