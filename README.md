@@ -1,5 +1,5 @@
 # ChromSpec
-Multivariate logistic regression for multi-label classification of analytes of interest using gas chromatography–mass spectrometry (GCMS) data and an in-house collected library.
+One-vs-Rest logistic regression for multi-label classification of analytes of interest using gas chromatography–mass spectrometry (GCMS) data and an in-house collected library.
 Context of data collected:
 1. 3 dimensional data (x, y, z) axes
 2. Specific mass spectra (m/z) and total ion current (TIC) distribution at a specific retention time (RT) allows for identification of compound
